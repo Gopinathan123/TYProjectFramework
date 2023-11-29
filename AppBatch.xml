@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="bixi_DebitCardModule.ApplyDebitCardSmokeOptim"/>
+      <class name="bixi_IBRegisterModule.IB_Register_SmokeOptimTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="4" parallel="tests" name="Suite">
+  <test name="Test-Runner-1">
+    <classes>
+      <class name="com.practiceTestNG.PracticeTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test-Runner-2">
+    <classes>
+      <class name="com.practiceTestNG.DemoTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test-Runner-3">
+    <classes>
+      <class name="com.practiceTestNG.SampleTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test-Runner-4">
+    <classes>
+      <class name="com.practiceTestNG.SimpleTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

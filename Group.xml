@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="2" parallel="tests" name="Suite">
+	<groups>
+		<run>
+			<include name="Smoke"></include>
+		</run>
+	</groups>
+  <test thread-count="2" parallel="tests" name="Test">
+    <classes>
+      <class name="com.practiceTestNG.PracticeTest"/>
+      <class name="com.practiceTestNG.SampleTest"/>
+      <class name="com.practiceTestNG.DemoTest"/>
+      <class name="com.practiceTestNG.SimpleTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

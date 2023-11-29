@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="3" parallel="Tests" name="Suite">
+  <test name="Test-Runner-1">
+  	<parameter name="BROWSER" value="Chrome"></parameter>
+    <classes>
+      <class name="com.practiceTestNG.PracticeTest"/>
+      <class name="com.practiceTestNG.SampleTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test-Runner-2">
+  <parameter name="BROWSER" value="Firefox"></parameter>
+    <classes>
+      <class name="com.practiceTestNG.PracticeTest"/>
+      <class name="com.practiceTestNG.SampleTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test-Runner-3">
+  <parameter name="BROWSER" value="Edge"></parameter>
+    <classes>
+      <class name="com.practiceTestNG.PracticeTest"/>
+      <class name="com.practiceTestNG.SampleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

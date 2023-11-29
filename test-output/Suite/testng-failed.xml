@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="3" parallel="tests" name="Test-Runner-2(failed)">
+    <parameter name="BROWSER" value="Firefox"/>
+    <classes>
+      <class name="com.practiceTestNG.SampleTest">
+        <methods>
+          <include name="luanch_url"/>
+          <include name="close_browser"/>
+          <include name="connect_DB"/>
+          <include name="luanch_Browser"/>
+          <include name="disconnect_DB"/>
+          <include name="sampletest1"/>
+          <include name="sampletest2"/>
+        </methods>
+      </class> <!-- com.practiceTestNG.SampleTest -->
+      <class name="com.practiceTestNG.PracticeTest">
+        <methods>
+          <include name="luanch_url"/>
+          <include name="close_browser"/>
+          <include name="connect_DB"/>
+          <include name="practtest1"/>
+          <include name="practtest2"/>
+          <include name="luanch_Browser"/>
+          <include name="disconnect_DB"/>
+        </methods>
+      </class> <!-- com.practiceTestNG.PracticeTest -->
+    </classes>
+  </test> <!-- Test-Runner-2(failed) -->
+  <test thread-count="3" parallel="tests" name="Test-Runner-1(failed)">
+    <parameter name="BROWSER" value="Chrome"/>
+    <classes>
+      <class name="com.practiceTestNG.SampleTest">
+        <methods>
+          <include name="luanch_url"/>
+          <include name="close_browser"/>
+          <include name="connect_DB"/>
+          <include name="luanch_Browser"/>
+          <include name="disconnect_DB"/>
+          <include name="sampletest1"/>
+          <include name="sampletest2"/>
+        </methods>
+      </class> <!-- com.practiceTestNG.SampleTest -->
+      <class name="com.practiceTestNG.PracticeTest">
+        <methods>
+          <include name="luanch_url"/>
+          <include name="close_browser"/>
+          <include name="connect_DB"/>
+          <include name="practtest1"/>
+          <include name="practtest2"/>
+          <include name="luanch_Browser"/>
+          <include name="disconnect_DB"/>
+        </methods>
+      </class> <!-- com.practiceTestNG.PracticeTest -->
+    </classes>
+  </test> <!-- Test-Runner-1(failed) -->
+  <test thread-count="3" parallel="tests" name="Test-Runner-3(failed)">
+    <parameter name="BROWSER" value="Edge"/>
+    <classes>
+      <class name="com.practiceTestNG.SampleTest">
+        <methods>
+          <include name="luanch_url"/>
+          <include name="close_browser"/>
+          <include name="connect_DB"/>
+          <include name="luanch_Browser"/>
+          <include name="disconnect_DB"/>
+          <include name="sampletest1"/>
+          <include name="sampletest2"/>
+        </methods>
+      </class> <!-- com.practiceTestNG.SampleTest -->
+      <class name="com.practiceTestNG.PracticeTest">
+        <methods>
+          <include name="luanch_url"/>
+          <include name="close_browser"/>
+          <include name="connect_DB"/>
+          <include name="practtest1"/>
+          <include name="practtest2"/>
+          <include name="luanch_Browser"/>
+          <include name="disconnect_DB"/>
+        </methods>
+      </class> <!-- com.practiceTestNG.PracticeTest -->
+    </classes>
+  </test> <!-- Test-Runner-3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
