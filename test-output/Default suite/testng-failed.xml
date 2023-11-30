@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bixi_IBRegisterModule.IB_Register_SmokeOptimTestNG">
+      <class name="bixi_StaffModule.ApprovePendingUsingOptimTest">
         <methods>
+          <include name="approvePendingUsingOptimTest"/>
           <include name="luanch_url"/>
           <include name="close_browser"/>
           <include name="connect_DB"/>
-          <include name="ibRegisterSmoke"/>
           <include name="luanch_Browser"/>
           <include name="disconnect_DB"/>
         </methods>
-      </class> <!-- bixi_IBRegisterModule.IB_Register_SmokeOptimTestNG -->
+      </class> <!-- bixi_StaffModule.ApprovePendingUsingOptimTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
